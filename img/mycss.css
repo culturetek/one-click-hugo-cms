@@ -1,0 +1,392 @@
+
+@keyframes caleft {
+  from {
+    left: 10%;
+  }
+  to {
+    left: 88%;
+  }
+}
+@-webkit-keyframes caleft {
+  from {
+    left: 10%;
+  }
+  to {
+    left: 88%;
+  }
+}
+@keyframes calefttwo {
+  from {
+    left: 20%;
+  }
+  to {
+    left: 94%;
+  }
+}
+@-webkit-keyframes calefttwo {
+  from {
+    left: 20%;
+  }
+  to {
+    left: 94%;
+  }
+}
+@keyframes caright {
+  from {
+    left: 88%;
+  }
+  to {
+    left: 10%;
+  }
+}
+@-webkit-keyframes caright {
+  from {
+    left: 88%;
+  }
+  to {
+    left: 10%;
+  }
+}
+@keyframes carighttwo {
+  from {
+    left: 69%;
+  }
+  to {
+    left: 20%;
+  }
+}
+@-webkit-keyframes carighttwo {
+  from {
+    left: 69%;
+  }
+  to {
+    left: 20%;
+  }
+}
+@keyframes car {
+  from {
+    left: -10%;
+  }
+  to {
+    left: 100%;
+  }
+}
+@-webkit-keyframes car {
+  from {
+    left: -10%;
+  }
+  to {
+    left: 100%;
+  }
+}
+@keyframes smoke {
+  from {
+    margin-bottom: 0;
+  }
+  to {
+    margin-bottom: 20px;
+    opacity: 0;
+  }
+}
+@-webkit-keyframes smoke {
+  from {
+    margin-bottom: 0;
+  }
+  to {
+    margin-bottom: 20px;
+    opacity: 0;
+  }
+}
+section.users-anim {
+  width: 100%;
+  max-width: 770px;
+  margin: auto;
+  height: 232px;
+  overflow: hidden;
+  position: relative;
+  border-bottom: 3px solid #090f15;
+}
+section.users-anim .ua-sky .ua-cloud.ua-cl-one {
+  width: 4.80519481%;
+  height: 10.77586207%;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 27.66233766%;
+  bottom: 42.67241379%;
+  -webkit-animation-name: caleft;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 35s;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-direction: alternate;
+  animation-name: caleft;
+  animation-duration: 35s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  opacity: 0.2;
+  background-image: url('cloud1.svg');
+}
+section.users-anim .ua-sky .ua-cloud.ua-cl-two {
+  width: 5.32467532%;
+  height: 10.34482759%;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 40.12987013%;
+  bottom: 40.0862069%;
+  -webkit-animation-name: calefttwo;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 30s;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-direction: alternate;
+  animation-name: calefttwo;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  opacity: 0.2;
+  background-image: url('cloud2.svg');
+}
+section.users-anim .ua-sky .ua-cloud.ua-cl-three {
+  width: 4.80519481%;
+  height: 10.77586207%;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 43.11688312%;
+  bottom: 43.53448276%;
+  -webkit-animation-name: caright;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 30s;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-direction: alternate;
+  animation-name: caright;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  opacity: 0.1;
+  background-image: url('cloud3.svg');
+}
+section.users-anim .ua-sky .ua-cloud.ua-cl-four {
+  width: 5.32467532%;
+  height: 11.63793103%;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 68.05194805%;
+  bottom: 59.9137931%;
+  -webkit-animation-name: carighttwo;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 35s;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-direction: alternate;
+  animation-name: carighttwo;
+  animation-duration: 35s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  opacity: 0.3;
+  background-image: url('cloud4.svg');
+}
+section.users-anim .ua-bg .ua-mo {
+  width: 36.36363636%;
+  height: 51.72413793%;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-image: url('mountains.svg');
+  bottom: -3px;
+  left: 0px;
+}
+section.users-anim .ua-bg .ua-bd1 {
+  width: 11.55844156%;
+  height: 50.43103448%;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 50.77922078%;
+  background-image: url('.svg');
+  bottom: -3px;
+}
+section.users-anim .ua-bg .ua-bd2 {
+  width: 10.85714286%;
+  height: 87.06896552%;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 85.41558442%;
+  background-image: url('ostuni.svg');
+  bottom: -100px;
+}
+section.users-anim .ua-car .ua-driver {
+  width: 29.09090909%;
+  height: 30.53448276%;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0%;
+  -webkit-animation-name: car;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 20s;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-direction: alternate;
+  animation-name: car;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  background-image: url('windsurf.svg');
+  bottom: -8px;
+  -webkit-animation-direction: normal;
+  animation-direction: normal;
+}
+section.users-anim .ua-fplan .ua-la {
+  width: 4.54545455%;
+  height: 21.55172414%;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-image: url('two-palm-trees.svg');
+  bottom: -15px;
+}
+section.users-anim .ua-fplan .ua-la.ua-la-fst {
+  left: 46.1038961%;
+}
+section.users-anim .ua-fplan .ua-la.ua-la-sc {
+  left: 75.45454545%;
+}
+section.users-anim .ua-fplan .ua-la.ua-la-th {
+  left: 22.07792208%;
+}
+section.users-anim .ua-fplan .ua-b-in {
+  width: 15.06493506%;
+  height: 36.63793103%;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 5.19480519%;
+  background-image: url('moai-statues-pascua-island.svg');
+  bottom: -3px;
+}
+section.users-anim .ua-fplan .ua-b-sb {
+  width: 15.71428571%;
+  height: 25.86206897%;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 29.35064935%;
+  background-image: url('coconut-trees.svg');
+  bottom: -3px;
+}
+section.users-anim .ua-fplan .ua-b-ps {
+  width: 20.64935065%;
+  height: 53.01724138%;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 51.94805195%;
+  background-image: url('.svg');
+  bottom: 0px;
+}
+section.users-anim .ua-fplan .ua-b-co {
+  width: 12.85714286%;
+  height: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 81.16883117%;
+  background-image: url('.svg');
+  bottom: -3px;
+}
+section.users-anim .ua-smokes {
+  background: #000;
+}
+section.users-anim .ua-smokes.ua-one {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 300px;
+  background: #000;
+  left: 51.94805195%;
+  -webkit-animation-name: smoke;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 2s;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-name: smoke;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  bottom: 49.56896552%;
+  opacity: 0.1;
+}
+section.users-anim .ua-smokes.ua-two {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 300px;
+  background: #000;
+  left: 51.2987013%;
+  -webkit-animation-name: smoke;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 2s;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-name: smoke;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  bottom: 50.86206897%;
+  opacity: 0.1;
+}
+section.users-anim .ua-smokes.ua-three {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 300px;
+  background: #000;
+  left: 51.94805195%;
+  -webkit-animation-name: smoke;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 3s;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-name: smoke;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  bottom: 53.01724138%;
+  opacity: 0.1;
+}
+section.users-anim .ua-smokes.ua-four {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 300px;
+  background: #000;
+  left: 51.03896104%;
+  -webkit-animation-name: smoke;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 2s;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-name: smoke;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  bottom: 55.60344828%;
+  opacity: 0.1;
+}
+
+
+@media screen and (max-width: 768px) {
+ 
+ 
+  section.users-anim {
+    margin-top: 0px;
+  }
+
+}
